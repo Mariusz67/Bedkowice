@@ -1,0 +1,95 @@
+
+
+/*input[type=submit] {*/
+/*    width: 100%;*/
+/*    background-color: red;*/
+/*    border-radius: 4px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*input[type=submit]:hover {*/
+/*    background-color: 45a049;*/
+/*}*/
+
+
+header {
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Arial Black";
+    color: darkblue;
+
+}
+
+section {
+    display: flex;
+}
+
+nav {
+    flex: 20%;
+    background: yellowgreen;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Arial Black";
+    color: darkblue;
+
+}
+
+article {
+    flex: 80%;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+	text-align: left;
+    font-size: 20px;
+    font-family: "Arial";
+
+}
+
+/*section::after {*/
+/*    display: table;*/
+/*    clear: both;*/
+/*}*/
+
+footer {
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+
+div.gallery {
+  margin: 5px;
+  border: 3px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 3px solid #777;
+}
+
+div.gallery img {
+  height: auto;
+  width: 100%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/*@media (max-width: 600px) {*/
+/*    section {*/
+/*        flex-direction: column;*/
+/*    }*/
+/*}*/
